@@ -8,46 +8,33 @@
 </head>
 
     <body>
-
         <div id="impress">
-            <div class="slide-text">
-                <p> The Title page</p>
-                <p><a href="#intro">Enter</a></p>
-            </div>
-        </div>
-               <div id="intro" class="step slide">
+            <div id="Title" class="step slide">
                 <div class="slide-text">
-                    
-                    <p>Which cave do you go into?</p>
-                    <p><a href="#cave1">CAVE 1</a></p>
-                    <p>or</p>
-                    <p><a href="#cave2">CAVE 2</a></p>
+                    <p> Today </p>
+                    <p><a href="#intro">Enter</a></p>
                 </div>
             </div>
+                    <div id="intro" class="step slide">
+                        <div class="slide-text">
+                            <p>Alarm goes off. Time to get up.</p>
+                            <p>Do you get up or sleep for “five” more minutes?</p>
+                            <br />
+                            <p>Which cave do you go into?</p>
+                            <p><a href="#cave1">CAVE 1</a></p>
+                            <p>or</p>
+                            <p><a href="#cave2">CAVE 2</a></p>
+                        </div>
+                    </div>
+            
 
-            <div id="cave1" class="step slide" data-x="1500">
-                <div class="slide-text">
-                    <p>You approach the cave, it is dark and spooky.</p>
-                    <p>A large red dragon jumps out in front of you!</p>
-                    <p>He opens his jaws and...</p>
-                    <br />
-                    <p>Gobbles you down with one bite!</p>
-                </div>
-                <div class="menu">
-                    <a href="#intro">START OVER</a>
-                </div>
-            </div>
-            <div id="cave2" class="step slide" data-x="-1500">
-                <div class="slide-text">
-                    <p>You approach the cave, it is bright and cheerful.</p>
-                    <p>A large white dragon approaches you...</p>
-                    <p>And gives you his treasure.</p>
-                </div>
-                <div class="menu">
-                    <a href="#intro">START OVER</a>
-                </div>
-            </div>
-        </div>
 
-    </body>
+
+
+
+                </div>
+                <script src="JS/impress.js"></script>
+                <script>impress().init();</script>
+</body>
+
 </html>

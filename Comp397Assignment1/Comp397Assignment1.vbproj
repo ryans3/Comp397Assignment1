@@ -82,8 +82,8 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CSS\main.css" />
-    <Content Include="CSS\reset.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\reset.css" />
     <Content Include="Index.html" />
     <Content Include="JS\impress.js" />
     <Content Include="Web.config" />
