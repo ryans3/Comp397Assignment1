@@ -57,9 +57,7 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Image\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
@@ -84,10 +82,36 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\foundation.css" />
+    <Content Include="css\foundation.min.css" />
     <Content Include="css\main.css" />
+    <Content Include="css\normalize.css" />
     <Content Include="css\reset.css" />
     <Content Include="Index.html" />
+    <Content Include="JS\foundation.min.js" />
+    <Content Include="JS\foundation\foundation.abide.js" />
+    <Content Include="JS\foundation\foundation.accordion.js" />
+    <Content Include="JS\foundation\foundation.alert.js" />
+    <Content Include="JS\foundation\foundation.clearing.js" />
+    <Content Include="JS\foundation\foundation.dropdown.js" />
+    <Content Include="JS\foundation\foundation.equalizer.js" />
+    <Content Include="JS\foundation\foundation.interchange.js" />
+    <Content Include="JS\foundation\foundation.joyride.js" />
+    <Content Include="JS\foundation\foundation.js" />
+    <Content Include="JS\foundation\foundation.magellan.js" />
+    <Content Include="JS\foundation\foundation.offcanvas.js" />
+    <Content Include="JS\foundation\foundation.orbit.js" />
+    <Content Include="JS\foundation\foundation.reveal.js" />
+    <Content Include="JS\foundation\foundation.slider.js" />
+    <Content Include="JS\foundation\foundation.tab.js" />
+    <Content Include="JS\foundation\foundation.tooltip.js" />
+    <Content Include="JS\foundation\foundation.topbar.js" />
     <Content Include="JS\impress.js" />
+    <Content Include="JS\vendor\fastclick.js" />
+    <Content Include="JS\vendor\jquery.cookie.js" />
+    <Content Include="JS\vendor\jquery.js" />
+    <Content Include="JS\vendor\modernizr.js" />
+    <Content Include="JS\vendor\placeholder.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -120,6 +144,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Image\.gitkeep" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
