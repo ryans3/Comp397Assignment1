@@ -88,7 +88,7 @@
     <Content Include="css\normalize.css" />
     <Content Include="css\reset.css" />
     <Content Include="Image\Squirrel.png" />
-    <Content Include="Index.html" />
+    <Content Include="index.html" />
     <Content Include="JS\foundation.min.js" />
     <Content Include="JS\foundation\foundation.abide.js" />
     <Content Include="JS\foundation\foundation.accordion.js" />
